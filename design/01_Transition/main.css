@@ -1,0 +1,62 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+
+/* body */
+body{
+    background-color: azure !important;
+}
+
+
+/* header */
+/* header */
+header nav ul {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2.5em;
+}
+header nav a {
+    transition: color 2s ease;
+    color: inherit;
+}
+header nav a:hover {
+    color: red;
+}
+
+
+
+/* main */
+main .container{
+    padding: 0px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+main section{
+    padding: 10px;
+    width: 20rem;
+    height: 20rem;
+
+    border: 1px solid black;
+
+    transition-property: border-radius, box-shadow;
+    transition-duration: 0.3s;
+}
+main section:hover{
+    box-shadow: 0 0 10px 0 gray;
+    border-radius: 5px;
+}
